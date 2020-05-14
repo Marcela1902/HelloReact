@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+  }
+
+.Card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-style: normal;
+}
+
+.Card-conten {
+   font-family: 'medium-content-serif-font';
+  font-weight: 100;
+  font-style: italic;
+  font-size: medium;
+  text-align: left;
+  
+    
+    
+}
+
+
+.Card-image{
+ size: 3px;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-size: contain;
+  background-position: center;
+
+}
+
+
+  
