@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
-//import Menu from './components/Menú/Menu';
 
 // Components
-// import Clock from './components/Clock/Clock'
+import Clock from './components/Clock/Clock'
 import Card from './components/Card/Card'
+//import Contador from './components/Contador/Contador';
 
 const data = [
   {
@@ -79,10 +79,12 @@ render () {
       <div className='cards-container'>
         {this._renderCards()}
       </div>
-      {/* <Clock /> */}
+        <p> {Clock} </p>
+       
     </div>
+    
   )
-}
+ };
 }
 
 
